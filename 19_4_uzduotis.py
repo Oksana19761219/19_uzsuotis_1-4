@@ -48,6 +48,7 @@ submenu.add_separator()
 submenu.add_command(label="Išeiti", command=iseiti)
 
 window.bind("<Return>", lambda event: spausdinti())
+window.bind("<Escape>", lambda event: iseiti())
 
 entry.pack()
 label_1.pack()
